@@ -34,7 +34,7 @@ Here are the prerequisites for this project.
 1. Clone the repo
 
 ```
-git clone https://github.com/antrikshmisri/productsCRUD.git
+git clone https://github.com/PrasadBhosale419/WTL-miniproject.git
 ```
 
 2. Goto the repo
