@@ -1,0 +1,108 @@
+body
+{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: teal;
+}
+ul li
+{
+    font-size: 1.5rem;
+}
+a
+{
+    font-weight: 700;
+    text-decoration: none;
+    color: teal;
+    margin: 0.5rem 2rem;
+}
+a button,button
+{
+    min-width: 100px;
+    outline: none;
+    border: none;
+    background-color: teal;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+input
+{
+    min-width: 200px;
+    margin: 1rem 0;
+    border-radius: 6px;
+    border: 2px solid teal;
+    padding: 5px 10px;
+}
+select
+{
+    min-width: 200px;
+    margin: 1rem 0;
+    border-radius: 6px;
+    border: 2px solid teal;
+    padding: 5px 10px;
+}
+select option
+{
+    background-color: teal;
+    color: white;
+}
+
+.filter-section
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.filters
+{
+    text-align: center;
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    border-radius: 15px;
+    margin: 0 1rem !important; 
+}
+
+.products-div
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-body
+{
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    min-height: 20vh;
+    border-radius: 20px;
+    background-color: azure;
+    filter: drop-shadow(2px 2px 10px rgb(140, 150, 150));
+}
+hr
+{
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    height: 3px;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(to right, rgba(240, 255, 255,0), rgba(0, 128, 128,1), rgba(240, 255, 255,0));
+}
